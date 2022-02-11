@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Museu Nacional</title>
+		<!-- Estilo customizado-->
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!-- Normalize CSS -->
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+		<!-- Início contâiner -->
+		<div id="container">
+			<header><!-- Início cabeçalho -->
+				<div id="logo">
+					<h1><a href="index.html">Museu Nacional</a></h1>
+
+				</div>
+					<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="exposicoes.html">Exposições</a></li>
+							<li><a href="acervo.html">Acervo</a></li>
+							<li><a href="pesquisas.html">Pesquisas</a></li>
+							<li><a href="fotos.html">Fotos e Vídeos</a></li>
+							<li><a href="contato.html">Contato</a></li>
+
+						</ul>
+					</nav>
+			</header><!-- Seria o id=cabeçalho -->
+			<div id="principal">
+				<div id="conteudo">
+					<section id="capa">
+						<img src="imagens/museu.png">
+					</section>
+					<section id="postagens">
+
+						<article id="video">
+							<h3>Conheça o Museu</h3>
+							<iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</article>
+						<article id="exposicoes">
+							<h3>Exposições</h3>
+							<ul>
+								<li><a href="">Luzia: Fóssil mais antigo do Brasil</a></li>
+								<li><a href="">O que podemos aprender com o passado?</a></li>
+								<li><a href="">Coloque aqui o que desejar</a></li>
+								<li><a href="">Imperatriz Leopoldina</a></li>
+								<li><a href="">Animais pré históricos</a></li>
+								<li><a href="">Meteoritos </a></li>
+								<li><a href=""><strong>Veja Mais</strong></a></li>
+							</ul>
+						</article>
+
+						
+
+						<article id="a200">
+							<h3>200 anos de história</h3>
+							<p>Criado em 6 de junho de 1818 por Dom João VI, responsável pela transferência da corte portuguesa para o Brasil, o então Museu Real – hoje situado no antigo Palácio Imperial de São Cristóvão, na Quinta da Boa Vista – foi pensado para propagar o conhecimento e o estudo das ciências naturais em terras brasileiras.</p>
+							<a href=""><strong>Veja Mais</strong></a>
+						</article>
+					
+
+						<article id="mapa">
+							<h3>Como chegar</h3>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1631022540285!5m2!1spt-BR!2sbr" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						</article>
+
+					
+					</section>
+				</div>
+				<aside>
+					<section id="depoimento">
+						<img src="imagens/depoimento.png">
+					</section>
+
+					<section id="visita">
+						<h4>Faça uma visita</h4>
+						<form>
+							<fieldset>
+								<legend>Selecione uma data</legend>
+								<label for="data">Data</label>
+								<input class="campo" type="text" id="data" value="dd/mm/aaaa"><br>
+
+								<label for="qtd">Quantidade de pessoas</label>
+								<input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+							</fieldset>
+
+							<input class="botao" type="submit" name="Verificar Disponibilidade">
+						</form>
+						
+					</section>
+					<section id="galeria">
+						<h4>Galeria de Fotos</h4>
+						<a href=""><img src="imagens/imagem1.jpg" height="93" width="93" alt="descrição da imagem1"></a>
+
+						<a href=""><img src="imagens/imagem2.jpg" height="93" width="93" alt="descrição da imagem2"></a>
+
+						<a href=""><img src="imagens/imagem3.jpg" height="93" width="93" alt="descrição da imagem3"></a>
+
+						<a href=""><img src="imagens/imagem4.jpg" height="93" width="93" alt="descrição da imagem4"></a>
+					</section>
+				</aside>
+				<footer style="clear: both;">
+					<p>
+						<a href="">Home</a>-
+						<a href="">Nossa História</a>-
+						<a href="">Trabalhe Conosco</a>
+
+					</p>
+
+				</footer>
+			</div>		
+		</div>
+		<!-- Fim contâiner -->
+	</body>
+</html>
